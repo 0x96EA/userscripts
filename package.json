@@ -1,0 +1,32 @@
+{
+  "name": "userscripts",
+  "description": "my userscripts",
+  "keywords": [
+    "userscript",
+    "tampermonkey",
+    "greasyfork",
+    "violentmonkey",
+    "addons"
+  ],
+  "homepage": "https://github.com/0x96EA/userscripts#readme",
+  "bugs": {
+    "url": "https://github.com/0x96EA/userscripts/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0x96EA/userscripts.git"
+  },
+  "license": "MIT",
+  "author": "0x96EA",
+  "scripts": {
+    "check": "biome check",
+    "format": "biome format --write",
+    "fix": "biome check --fix",
+    "ci": "biome ci",
+    "clean": "rm -Rf node_modules",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.2.0"
+  }
+}
