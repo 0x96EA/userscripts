@@ -1,6 +1,6 @@
 {
   "name": "userscripts",
-  "description": "my userscripts",
+  "description": "my userscripts for tampermonkey, violentmonkey, and greasyfork",
   "keywords": [
     "userscript",
     "tampermonkey",

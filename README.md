@@ -6,8 +6,9 @@ A collection of userscripts for browser extensions like Tampermonkey, Violentmon
 
 ### AniList Progress Addon
 Display your current chapter/episode progress on the cover image.
-[TODO Greasy fork URL here]()
-  - Source: [anilist/anilist-progress-script.js](anilist/anilist-progress-script.js)
+
+- Install: [https://greasyfork.org/en/scripts/546580-anilist-progress-addon](https://greasyfork.org/en/scripts/546580-anilist-progress-addon)
+- Source: [anilist/anilist-progress-script.js](anilist/anilist-progress-script.js)
 
 ## Development
 
