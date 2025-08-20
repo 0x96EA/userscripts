@@ -381,10 +381,44 @@
    */
   function init() {
     logger.log('starting...');
+
     // Auto-show progress on page load (with slight delay)
     setTimeout(() => {
       loadAddon();
     }, 1000);
+
+    /**
+     * Single Page Application support
+     */
+
+    let currentUrl = window.location.href;
+
+    // watch for page content changes
+    const observer = new MutationObserver(() => {
+      if (window.location.href !== currentUrl) {
+        currentUrl = window.location.href;
+        logger.info('Location changed, reloading...');
+        clearProgressUI();
+        setTimeout(() => {
+          loadAddon();
+        }, 1500);
+      }
+    });
+
+    // Start observing
+    observer.observe(document.body, {
+      childList: true,
+      subtree: true,
+    });
+
+    // watch for page forward and back navigation
+    window.addEventListener('popstate', () => {
+      logger.info('Page navigation change, reloading...');
+      clearProgressUI();
+      setTimeout(() => {
+        loadAddon();
+      }, 1500);
+    });
   }
 
   // Wait for the page to load before initializing
