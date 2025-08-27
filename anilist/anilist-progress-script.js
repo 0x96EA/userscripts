@@ -3,16 +3,14 @@
 // @description  Display your current chapter/episode progress on the cover image
 // @version      0.0.1
 // @author       0x96EA
+// @namespace    https://github.com/0x96EA/userscripts/website-redirects
 // @homepageURL https://github.com/0x96EA/userscripts
 // @license MIT
-// @namespace    Violentmonkey Scripts
 // @match        https://anilist.co/*
 // @grant       none
 // ==/UserScript==
 
-// biome-ignore lint/complexity/useArrowFunction: greasy fork scripts follow this convention
 (function () {
-  // biome-ignore lint/suspicious/noRedundantUseStrict: greasy fork scripts follow this convention
   'use strict';
 
   const logPrefix = '[Progress Addon]';
