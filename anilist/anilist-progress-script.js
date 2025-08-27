@@ -188,7 +188,7 @@
 
     // Add a unique class to the cover wrap for targeting
     coverWrap.classList.add(addonClass);
-    logger.info('text:', progressText);
+    logger.info('Text:', progressText);
 
     // Get image dimensions for positioning
     let imageHeight = 0;
@@ -248,7 +248,7 @@
       coverWrap.style.position = 'relative';
     }
 
-    logger.log(`loaded with progress: ${progressText}`);
+    logger.log(`Loaded with progress: ${progressText}`);
   }
 
   /**
@@ -378,7 +378,7 @@
    * Initialize the script
    */
   function init() {
-    logger.log('starting...');
+    logger.log('Starting...');
 
     // Auto-show progress on page load (with slight delay)
     setTimeout(() => {
