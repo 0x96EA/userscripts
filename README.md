@@ -10,6 +10,11 @@ Display your current chapter/episode progress on the cover image.
 - Install: [https://greasyfork.org/en/scripts/546580-anilist-progress-addon](https://greasyfork.org/en/scripts/546580-anilist-progress-addon)
 - Source: [anilist/anilist-progress-script.js](anilist/anilist-progress-script.js)
 
+### Website Redirects
+Redirect specified websites to designated locations while preserving paths and query parameters.
+
+- Source: [website-redirects/website-redirects-script.js](website-redirects/website-redirects-script.js)
+
 ## Development
 
 This project uses [Biome](https://biomejs.dev/) for linting and formatting.
