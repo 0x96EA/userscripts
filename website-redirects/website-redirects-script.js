@@ -31,7 +31,7 @@
 
   // Define your redirects here
   const redirects = {
-    // 'reddit.com': 'https://old.reddit.com',
+    'reddit.com': 'https://old.reddit.com',
     // Add more redirects as needed
   };
 
