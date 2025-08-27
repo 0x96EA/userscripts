@@ -13,6 +13,7 @@ Display your current chapter/episode progress on the cover image.
 ### Website Redirects
 Redirect specified websites to designated locations while preserving paths and query parameters.
 
+- Install: [https://greasyfork.org/en/scripts/547444-website-redirects](https://greasyfork.org/en/scripts/547444-website-redirects)
 - Source: [website-redirects/website-redirects-script.js](website-redirects/website-redirects-script.js)
 
 ## Development
